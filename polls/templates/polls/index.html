@@ -1,8 +1,4 @@
-{% load staticfiles %}
-<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<!-- 引入 Bootstrap -->
-<script type="text/javascript" src="{% static 'bootstrap-3.3.7/js/bootstrap.js' %}"></script>
-<link type="text/css" rel="stylesheet" href="{% static 'bootstrap-3.3.7/css/bootstrap.css' %}"/>
+{% include 'common/base.html' %}
 
 {% if latest_question_list %}
 <div class="list-group">
